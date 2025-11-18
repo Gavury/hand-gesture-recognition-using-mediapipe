@@ -177,7 +177,7 @@ while cap.isOpened():
                         cv2.putText(image, "GESTO: Paz ESQUERDA (Setas)", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
 
                     # Ação (só acontece se o cooldown tiver passado)
-                    if (current_time - last_press_time_nav > COOLDOWN_NAV):
+                    if (current_time - last_press_time_nav > COOLDOWN_HANDS):
                         if hand_label == 'Right':
                             print("Gesto '2' (Direita) -> Pressionando SETA DIREITA")
                             pyautogui.press('right')#pyautogui.hotkey('ctrl', 'right')
@@ -255,3 +255,4 @@ while cap.isOpened():
 hands.close()
 cap.release()
 cv2.destroyAllWindows() 
+
