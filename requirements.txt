@@ -3,3 +3,7 @@ mediapipe
 pyautogui
 time
 math
+
+https://drive.google.com/file/d/1ntaw-eDokk90ujTVwcjzgj1BKp42spLb/view?usp=sharing 
+
+https://drive.google.com/file/d/1MxWyOsrLr-cKZ5rCTlHGrJzET_pf4pRM/view?usp=sharing
